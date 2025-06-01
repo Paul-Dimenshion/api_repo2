@@ -15,7 +15,7 @@ env:
 
 jobs:
   integration:
-    uses: Paul-Dimenshion/python_integration_workflow/.github/workflows/python-app.yml
+    uses: Paul-Dimenshion/python_integration_workflow/.github/workflows/python-app.yml@main
     permissions:
       contents: read
 
