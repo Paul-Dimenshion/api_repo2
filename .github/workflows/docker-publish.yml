@@ -20,7 +20,7 @@ jobs:
       contents: read
 
   build:
-    needs: integration  # ✅ Гарантирует порядок
+    needs: [integration]  # ✅ Гарантирует порядок
     runs-on: ubuntu-latest
     permissions:
       contents: read
